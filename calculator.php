@@ -18,7 +18,6 @@ setcookie("page_count", $page_count);
 include "calcmultiplenrs.php";
 include  "header.html";
 
-
 print "{$_SESSION["name"]}, email is {$_SESSION["email"]} <br />";
 print "Number of views: {$page_count} <br />";
 
